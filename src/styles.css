@@ -1,0 +1,45 @@
+body {
+  background-color: hsl(286, 73%, 81%);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 70px;
+  background: linear-gradient(145deg, hsl(291, 87%, 88%), hsl(263, 48%, 70%));
+  box-shadow: 32px 32px 65px hsl(324, 51%, 32%),
+    -32px -32px 65px hsl(270, 39%, 74%);
+}
+
+.to-do {
+  color: hsl(324, 51%, 32%);
+  text-align: center;
+}
+
+.to-do-text {
+  color: hsl(324, 51%, 32%);
+  text-align: center;
+}
+
+::selection {
+  background: hsl(305, 23%, 57%);
+}
+
+.btn {
+  padding: 0.3%;
+  margin: 18px;
+  text-align: center;
+  color: hsl(322, 52%, 27%);
+  max-width: 500px;
+  border-radius: 10%;
+  background: hsl(315, 100%, 90%);
+}
+
+.delete-btn {
+  padding: 0.3%;
+  margin: 18px;
+  max-width: 500px;
+  border-radius: 10%;
+  color: hsl(323, 52%, 27%);
+  background: hsl(315, 100%, 90%);
+}
